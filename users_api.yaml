@@ -8,7 +8,7 @@ info:
   license:
     name: "Apache 2.0"
     url: "http://www.apache.org/licenses/LICENSE-2.0.html"
-host: "localhost:7800"
+host: "localhost:8243"
 basePath: "/users/v1"
 tags:
 - name: "user"
@@ -17,7 +17,7 @@ tags:
     description: "Find out more about our store"
     url: "http://swagger.io"
 schemes:
-- "http"
+- "https"
 paths:
   /users:
     get:
@@ -97,9 +97,9 @@ paths:
        
     
 securityDefinitions:
-  api_key:
+  Bearer:
     type: "apiKey"
-    name: "api_key"
+    name: "Authorization"
     in: "header"
 definitions:
   User:

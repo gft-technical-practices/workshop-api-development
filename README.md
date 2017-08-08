@@ -48,7 +48,7 @@ As apis foram desenvolvidas somente para os seguintes fluxos:
 Seguem os dados do sandbox de cada um:
 
 ***/users/v1/users***
-''''javascript
+```javascript
 [
       {
       "id": "1",
@@ -69,10 +69,10 @@ Seguem os dados do sandbox de cada um:
       "phone": "(11) 99571-8756"
    }
 ]
-''''
+```
 
 ***/users/v1/users/{user_id}***
-''''javascript
+```javascript
 {
    "id": "1",
    "username": "rafaelm",
@@ -82,7 +82,7 @@ Seguem os dados do sandbox de cada um:
    "password": "123456",
    "phone": "(11) 98645-8787"
 }
-''''
+```
 
 *Teste das APIs*
 - curl -X GET "http://localhost:7800/users/v1/users" -H "accept: application/json"

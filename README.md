@@ -161,3 +161,6 @@ Para maiores informações:
 - [Enterprise Integrations Patterns](https://www.safaribooksonline.com/library/view/enterprise-integration-patterns/0321200683/)
 - [Winning in the API Economy](https://www.3scale.net/wp-content/uploads/2013/10/Winning-in-the-API-Economy-eBook-3scale.pdf)
 - [API - A Strategy Guide](http://shop.oreilly.com/product/0636920021223.do)
+
+Rafael Manzoni - rafael.manzoni@gft.com
+Team API & Integration Practice Brazil GFT Brazil

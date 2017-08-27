@@ -163,4 +163,4 @@ Para maiores informações:
 - [API - A Strategy Guide](http://shop.oreilly.com/product/0636920021223.do)
 
 Rafael Manzoni - rafael.manzoni@gft.com
-Team API & Integration Practice Brazil GFT Brazil
+Team GFT API & Integration Practice Brazil

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ns2:restapiDescriptor xmlns="http://com.ibm.etools.mft.descriptor.base" xmlns:ns2="http://com.ibm.etools.mft.descriptor.restapi" definitionType="swagger_20" definitionFile="users_api.json" implementation="gen/UsersRESTAPI.msgflow" https="false">
     <ns2:operations>
+        <ns2:operation name="createUser" implementation="createUser.subflow"/>
         <ns2:operation name="getUserById" implementation="getUserById.subflow"/>
         <ns2:operation name="getUsers" implementation="getUsers.subflow"/>
     </ns2:operations>
